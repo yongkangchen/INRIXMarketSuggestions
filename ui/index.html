@@ -317,8 +317,9 @@
 			  		showAlert("please input address");
 			  		return false;
 			  	}
+			  	// $("#searchInput").attr("placeholder", val);
 			  	if(config.isJava){
-					onSuccess(address);
+					queryGeoloc(val);
 					return false;
 				}
 			  	return false;
@@ -335,7 +336,7 @@
 			  	})
 			  });
 
-			  var defaultAddress = "555 9th st, san francisco";
+			  var defaultAddress = "934 Brannan St, San Francisco";
 			  $("#searchInput").val(defaultAddress)
 			  queryGeoloc(defaultAddress, 37.77, -122.411)
 			});
