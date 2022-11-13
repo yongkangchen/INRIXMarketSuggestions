@@ -20,5 +20,5 @@
 * [Leaflet-Arrowheads](https://github.com/slutske22/leaflet-arrowheads)
 * [Leaflet.GeometryUtil](https://github.com/makinacorpus/Leaflet.GeometryUtil)
 * [Axios](https://axios-http.com)
-* Vkbeautify
+* [Vkbeautify](http://www.eslinstructor.net/vkbeautify/)
 * [radar](https://radar.com)
