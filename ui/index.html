@@ -232,7 +232,6 @@
 				$("#ajaxLoading").removeClass('d-none');
 
 				var requests = datas.map(function(data) {
-
 				    return $.ajax({
 					  url: url,
 					  data: data,
@@ -322,6 +321,7 @@
 					queryGeoloc(val);
 					return false;
 				}
+				search(val, queryGeoloc);
 			  	return false;
 			  });
 
@@ -337,8 +337,8 @@
 			  });
 
 			  var defaultAddress = "934 Brannan St, San Francisco";
-			  $("#searchInput").val(defaultAddress)
-			  queryGeoloc(defaultAddress, 37.77, -122.411)
+			  $("#searchInput").val(defaultAddress);
+			  queryGeoloc(defaultAddress);
 			});
 			
 		</script>
