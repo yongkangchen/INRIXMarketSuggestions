@@ -13,11 +13,12 @@
 
 ## referenced https://github.com/INRIX/iq-api-samples/
 ## Used Client Libraries:
-* nodejs
-* Jquery
-* Bootstrap
-* Leaflet
-* Leaflet-Arrowheads
-* Leaflet.GeometryUtil
-* Axios
+* [nodejs](https://nodejs.org)
+* [JQuery](https://jquery.com)
+* [Bootstrap](https://getbootstrap.com)
+* [Leaflet](https://leafletjs.com)
+* [Leaflet-Arrowheads](https://github.com/slutske22/leaflet-arrowheads)
+* [Leaflet.GeometryUtil](https://github.com/makinacorpus/Leaflet.GeometryUtil)
+* [Axios](https://axios-http.com)
 * Vkbeautify
+* [radar](https://radar.com)
