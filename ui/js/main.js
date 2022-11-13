@@ -77,6 +77,13 @@ function showList(res, type){
 			node.show();
 		}
 
+		for(var i = 0; i < 3; i++){
+			var node = $("#accordion-"+ type +" > .accordion-item")[i];
+			if(node){
+				$(".accordion-button", node).removeClass("collapsed");
+			}
+		}
+
 		for(var i = res.length; i < 10; i++){
 			var node = nodes[i];
 			if(node){
