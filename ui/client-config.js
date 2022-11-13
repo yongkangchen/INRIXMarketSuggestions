@@ -4,7 +4,9 @@ config = {
   
   // visitCountAPI: "http://localhost:3000/visitCount",
   
-  visitCountAPI: "http://172.31.233.123:9078/api/trips/getVisitCount",
+  // visitCountAPI: "http://172.31.233.123:9078/api/trips/getVisitCount",
+  visitCountAPI: "http://172.31.238.184:9078/api/trips/getVisitCount",
+  
   isJava: true,
 
   inrixIncidentsAPI: "https://api.iq.inrix.com/v1/incidents",
