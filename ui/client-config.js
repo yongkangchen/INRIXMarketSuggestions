@@ -2,10 +2,10 @@ config = {
   checkConfigAPI: "http://localhost:3000/checkConfig",
   inrixTokenAPI: "http://localhost:3000/getToken",
   
-  // visitCountAPI: "http://localhost:3000/visitCount",
+  visitCountAPI: "http://localhost:3000/visitCount",
   
-  visitCountAPI: "http://localhost:9078/api/trips/getVisitCount",
-  isJava: true,
+  //visitCountAPI: "http://localhost:9078/api/trips/getVisitCount",
+  //isJava: true,
 
   inrixIncidentsAPI: "https://api.iq.inrix.com/v1/incidents",
   inrixTilesAPI: "https://api.iq.inrix.com/v1/tiles/",
